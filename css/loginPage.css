@@ -103,10 +103,10 @@ button {
         height: 100vh;
     }
     form{
-        margin-top: 3%;
+        margin-top: 5%;
         height: 45vh;
         width: 50vh;
-        padding: 3vh;
+        padding: 6vh;
         box-shadow: 0 0 4vh rgb(255, 190, 0);
     }
     label{
