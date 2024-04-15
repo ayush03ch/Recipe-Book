@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book </title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon1.png" type="image/x-icon" />
+    <!-- font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- Angular  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="recipes.js"></script>
+</head>
+
+
+<body ng-app="recipeApp">
+    <!-- nav bar -->
+    <nav class="navbar">
+        <div class="nav-center">
+            <!-- header -->
+            <div class="nav-header">
+                <a href="index.html" class="nav-logo"> 
+                    <img src="./assets/logo0.png" alt="RecipeBook" id="logo">
+                </a>
+                <button type="button" class="btn nav-btn">
+                    <i class="fas fa-align-justify"></i>
+                </button>
+            </div>
+
+            <!-- links -->
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="explore.html" class="nav-link">Explore</a>
+                <!-- <a href="publish.html" class="nav-link">Upload</a> -->
+                <a href="login.html" class="nav-link">Login</a>
+            </div>
+        </div>
+    </nav>
+    <!-- nav bar ends -->
+    
+
+    <!-- main page -->
+    <main class="page">
+        <!-- header -->
+        <header class="banner">
+            <div class="banner-container">
+                <div class="banner-text">
+                    <h1>Recipe Book</h1>
+                    <h3>Crafting Culinary Adventures</h3>
+                </div>
+            </div>
+        </header>
+        <!-- header end -->
+
+        <!--Category wise recipes -->
+        <h2 class="heading-h2">EXPLORE BY CATEGORY</h2>
+        <div class="categories" ng-app="recipeApp" ng-controller="recipeController">
+            <a href="explore.html?category=Cake">
+                <img src="./assets/cake.jpg" alt="Cake" class="imgContainer">
+                <div class="img-overlay"></div>
+                <p>Cake</p>
+            </a>
+        
+            <a href="explore.html?category=Soup">
+                <img src="./assets/soup.jpg" alt="Soup" class="imgContainer">
+                <div class="img-overlay"></div>
+                <p>Soups</p>
+            </a>
+        
+            <a href="explore.html?category=Pizza">
+                <img src="./assets/pizza.jpg" alt="Pizza" class="imgContainer">
+                <div class="img-overlay"></div>
+                <p>Pizza</p>
+            </a>
+        
+            <a href="explore.html?category=Breakfast">
+                <img src="./assets/breakfast.jpeg" alt="Breakfast" class="imgContainer">
+                <div class="img-overlay"></div>
+                <p>Breakfast</p>
+            </a>
+        
+            <a href="explore.html?category=MainCourse">
+                <img src="./assets/MainCourse.jpg" alt="MainCourse" class="imgContainer">
+                <div class="img-overlay"></div>
+                <p>Main Course</p>
+            </a>
+        
+            <a href="explore.html?category=Dessert">
+                <img src="./assets/Dessert.jpg" alt="Dessert" class="imgContainer">
+                <div class="img-overlay"></div>
+                <p>Dessert</p>
+            </a>
+        
+            <a href="explore.html?category=South-Indian">
+                <img src="./assets/southIndian.jpg" alt="South-Indian" class="imgContainer">
+                <div class="img-overlay"></div>
+                <p>South Indian</p>
+            </a>
+        </div>
+        
+        
+        <!-- Recipe Of the Day -->
+        <h2 class="heading-h2">RECIPE OF THE DAY</h2>
+        <div class="home-recipe">
+            <a href="" class="home-recipe-image"><img src="./assets/methi-malai-matar.jpg" alt="image"></a>
+            <div class="home-recipe-description-desktop">
+                <h3>Methi Matar Malai </h3>
+                <p>Methi is the Hindi word for fenugreek, matar for peas and malai for cream. Hence the name Methi Matar Malai. These 3 ingredients come together to make a rich and creamy curry that everyone loves. Above all, It is a kids-friendly and senior-friendly dish.
+                    <br><br>Fenugreek leaves are slightly bitter in taste. So to tone the bitter flavors, ingredients that can impart sweeter tones like – onion, cashews and tender peas are used. Lastly to enhance the texture and richness, cream is added.
+                    <br><br>Usually less amount of spices are used to acquire a lighter color & retain the pleasant flavors of methi, matar and malai. This dish is best, when the heat/spice level is kept low to medium, else the heat will mute the other flavors that are key to a Methi Matar Malai.
+                </p>
+            </div>
+            <div class="home-recipe-description-mobile">
+                <h3>Methi Matar Malai </h3>
+                <p>A creamy curry featuring fenugreek leaves, peas, and cream. Balanced with onion, cashews, and mild spices.</p>
+            </div>
+        </div>
+
+        <!-- Spring Special -->
+        <h2 class="heading-h2">SPRING SPECIAL</h2>
+        <div class="home-recipe">
+            <a href="" class="home-recipe-image"><img src="./assets/spring.jpg" alt="image"></a>
+            <div class="home-recipe-description-desktop">
+                <h3>Pineapple Upside-Down Cake</h3>
+                <p>Indulge in the timeless delight of Pineapple Upside-Down Cake: a retro dessert that never goes out of style. Moist and fluffy pineapple-flavored sponge cake, topped with a deeply caramel-y brown sugar topping, toasted pecans, caramelized pineapples, and bursts of maraschino cherries. 
+                    <br><br>Our recipe stays true to the classic, simple and sweet. Butter, brown sugar, pineapple, pecans, eggs, maraschino cherries, and whipped topping create a rich and flavorful treat. 
+                    <br><br> Enhance with a dollop of whipped topping for a delightful finish or pair with a scoop of vanilla ice cream for an extra treat.
+                </p>
+            </div>
+            <div class="home-recipe-description-mobile">
+                <h3>Pineapple Sponge Cake</h3>
+                <p>Moist and fluffy pineapple sponge cake with caramelized brown sugar, pecans, and cherries.</p>
+            </div>
+        </div>
+        <!-- recipes end -->
+    </main>
+    <!-- main page ends -->
+    
+
+    <!-- footer -->
+    <footer class="page-footer">
+        <div>2024 Copyright ©RecipeBook  All Rights Reserved.
+            <p >Designed and Developed by Ayush Chuarasiya</p></div>
+      </footer>
+    
+    <!-- JS Script -->
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

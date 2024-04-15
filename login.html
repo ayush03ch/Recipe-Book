@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/loginPage.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Login Page | Recipe Book</title>
+</head>
+
+<body>
+    <form onsubmit="formValidate(event)" action="">
+        <img src="./assets/logo0.png" alt="Loading Image" class="loginLogo">
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" autocomplete="off">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" autocomplete="off">
+
+        <a href="" class="forgotPassword">Forgot Password?</a>
+        <button type="submit">Login</button>
+
+        <div class="socialButtons">
+            <a href="index.html" class="GoogleBtn"><i class='bx bxl-google '></i> Google</a>
+            <a href="index.html" class="FacebookBtn"><i class='bx bxl-facebook-circle '></i> Facebook</a>
+        </div>
+    </form>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
