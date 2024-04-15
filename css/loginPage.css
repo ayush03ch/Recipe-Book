@@ -36,6 +36,7 @@ input{
     margin-bottom: 6%;
     background-color: rgba(255,255,255,0.6); 
 }
+
 label{
     margin-left: 2%;    
     font-size: 120%;
@@ -53,9 +54,10 @@ button {
     margin-top: 6%;
 }
 .forgotPassword{
-    margin-left: 56%;
-    margin-top: -4%;
-    font-size: 90%;
+    position: absolute;
+    margin-top: 21.3%;
+    margin-left: 12%;
+    font-size: 15px;
     text-decoration: none;
 }
 button {
@@ -73,7 +75,7 @@ button {
     align-items: center;
     justify-content: center;
     border-radius: 2.5vh;
-    padding: 3% 6%;
+    padding: 3% 5%;
 } 
 .socialButtons a i{
     margin-right: 0.5vh;
@@ -101,19 +103,25 @@ button {
         height: 100vh;
     }
     form{
-        margin-top: 4%;
+        margin-top: 3%;
         height: 50%;
         width: 55%;
+        padding: 3vh;
         box-shadow: 0 0 4vh rgb(255, 190, 0);
     }
+    label{
+        font-size: 15px;
+    }
     .forgotPassword{
-        margin-left: 40%;
+        margin-top: 60%;
+        margin-left: 21%;
+        font-size: 12px;
     }
     .socialButtons{
         margin-top: 10%;
     }
     .socialButtons a{
-        font-size: 2vh;
+        font-size: 1.8vh;
     }
     .socialButtons a i{
         font-size: 2.5vh;
