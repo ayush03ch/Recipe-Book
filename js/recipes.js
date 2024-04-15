@@ -35,8 +35,8 @@ const recipes = [
             "Step 8 : Repeat for the other layers. Cover the entire cake with whipped cream.",
             "Step 9 : Decorate with chocolate ganache, rose emulsion whipped cream, green colored whipped cream, and silver balls."
         ],
-        preparationTime: "30 minutes",
-        cookTime: "25 minutes",
+        preparationTime: "30 Min",
+        cookTime: "25 Min",
         rating: "4.5 / 5"
     },
 
@@ -59,32 +59,70 @@ const recipes = [
             "Step 2 : Add corns, cheese, salt, red chilly powder, and mix herbs on top of the pizza base.",
             "Step 3 : Grill the pizza for 5 minutes.",
             "Step 4 : Your cheese corn pizza is ready to serve."
-        ]
+        ],
+        preparationTime: "10 Min",
+        cookTime: "15 Min",
+        rating: "4.7 / 5"
     },
 
     {
         id: 3,
-        name: "Tomato Soup",
-        category: "Soup",
-        description: "A comforting and flavorful tomato soup, perfect for any meal. Served hot with crispy bread croutons.",
-        image: "assets/tomato-soup.jpg",
+        name: "Chole Bhature",
+        category: "MainCourse",
+        description: "Chole Bhature is a classic North Indian dish consisting of spicy chickpea curry (chole) served with deep-fried bread (bhature). This delicious and hearty meal is perfect for a satisfying lunch or dinner.",
+        image: "assets/chole-bhature.jpeg",
         detailedIngredients: [
-            "1 kg red tomatoes",
-            "1 tsp salt",
-            "1 tsp black pepper powder",
-            "1/2 tsp sugar",
-            "1 tbsp bread croutons (for serving)"
+            "1 cup chole (soaked overnight)",
+            "4 tbsp oil",
+            "1 bay leaf",
+            "1 inch cinnamon stick",
+            "1/2 tsp cumin seeds",
+            "1 onion, chopped",
+            "1 tsp ginger-garlic paste",
+            "2 tomatoes, finely chopped",
+            "1 tbsp Kashmiri chili powder",
+            "1/2 tsp turmeric powder",
+            "1 tsp coriander powder",
+            "1/2 tsp cumin powder",
+            "3/4 tsp dry mango powder",
+            "2 tsp salt (or as per taste)",
+            "1/2 tsp garam masala",
+            "2 cups water",
+            "2 tsp coriander leaves, chopped",
+            "2 cups maida",
+            "1 tbsp rava",
+            "1 tsp sugar",
+            "1 tsp salt (to taste)",
+            "1/2 tsp baking powder",
+            "1/2 tsp baking soda",
+            "2 tsp oil",
+            "1 cup curd",
+            "1 cup oil for deep frying"
         ],
         instructions: [
-            "Step 1 : In a pressure cooker, add 1/4 cup water and bring it to a boil.",
-            "Step 2 : Add halved tomatoes to the boiling water, cover the cooker, and cook for 3 whistles.",
-            "Step 3 : Allow the pressure cooker to cool down, then blend the tomatoes into a smooth puree using a blender.",
-            "Step 4 : Strain the puree to remove any skin and seeds.",
-            "Step 5 : Transfer the strained puree to a pot and bring it to a boil.",
-            "Step 6 : Add salt, sugar, and black pepper powder to the boiling soup.",
-            "Step 7 : Simmer for 5-7 minutes until the soup thickens.",
-            "Step 8 : Serve hot, garnished with bread croutons."
-        ]
+            "For Chole:",
+            "Step 1: In a pressure cooker, heat oil.",
+            "Step 2: Saute bay leaf, cinnamon stick, and cumin seeds.",
+            "Step 3: Add chopped onions and ginger-garlic paste. Saute until golden brown.",
+            "Step 4: Add tomatoes and saute until they release oil.",
+            "Step 5: Add chili powder, turmeric, coriander powder, cumin powder, dry mango powder, garam masala, and salt. Saute for a minute.",
+            "Step 6: Add soaked chickpeas and 2 cups of water.",
+            "Step 7: Pressure cook for 7-8 whistles on medium flame.",
+            "Step 8: Mix well and garnish with chopped coriander leaves.",
+            "For Bhatura:",
+            "Step 1: In a large mixing bowl, take maida.",
+            "Step 2: Add rava, sugar, salt, baking powder, and baking soda. Mix well.",
+            "Step 3: Add oil and rub with the flour.",
+            "Step 4: Also, add curd and knead the dough.",
+            "Step 5: Grease the dough with oil. Cover with a moist cloth and rest for at least 2 hours.",
+            "Step 6: Pinch the dough into medium-sized balls and roll them into circles using a rolling pin.",
+            "Step 7: Heat oil in a deep frying pan or kadai.",
+            "Step 8: Fry the bhaturas until golden brown on both sides.",
+            "Step 9: Serve hot with chole."
+        ],
+        preparationTime: "20 Min",
+        cookTime: "40 Min",
+        rating: "4.9 / 5"
     },
 
     {
@@ -122,38 +160,69 @@ const recipes = [
             "Step 8 : Add the sautéed potatoes and mix well. Cover and steam for 2 minutes on low heat.",
             "Step 9 : Garnish with chopped coriander leaves and grated fresh coconut, if using.",
             "Step 10: Serve hot with lemon wedges."
-        ]
+        ],
+        preparationTime: "10 Min",
+        cookTime: "10 Min",
+        rating: "4.8 / 5"
     },
 
     {
         id: 5,
-        name: "Spinach Soup",
-        category: "Soup",
-        description: "A quick and nutritious spinach soup, packed with flavors of garlic and green chili, perfect for a light meal.",
-        image: "assets/spinach-soup.jpg",
+        name: "Dal Baati",
+        category: "MainCourse",
+        description: "Baati with Dal is a traditional Rajasthani dish consisting of baked wheat dough balls (baati) served with a flavorful lentil curry (dal), enriched with aromatic spices. This hearty and nutritious meal is perfect for a satisfying dinner.",
+        image: "assets/baati-with-dal.jpg",
         detailedIngredients: [
-            "1 cup chopped spinach",
-            "2 tsp chopped onion",
-            "1 tsp chopped garlic",
-            "1/2 tsp salt",
-            "1/2 tsp black pepper powder",
-            "1 cup milk",
-            "1 tsp chopped green chili"
+            "1 cup coarse whole wheat flour",
+            "1/2 cup Semolina",
+            "2 tbsp besan",
+            "1/2 cup milk",
+            "4 tbsp melted ghee",
+            "1 tsp saunf",
+            "1/4 tsp ajwain",
+            "1 tsp salt",
+            "5 tbsp channa dal",
+            "5 tbsp Arhar dal",
+            "5 tbsp green Moong dal",
+            "1 tbsp urad dal",
+            "3 laung",
+            "2 tej patta",
+            "1 tsp jeera",
+            "2 green chilly slited",
+            "1/2 tsp haldi pwd",
+            "1 cup finely chopped tomatoes",
+            "1 tsp coriander powder",
+            "1/2 tsp turmeric powder",
+            "1 tbsp chilli powder",
+            "1/2 tsp garam masala",
+            "1 tbsp finely chopped coriander",
+            "1 tsp heeng"
         ],
         instructions: [
-            "Step 1 : In a pan, heat 1 teaspoon oil and sauté garlic, chopped onions, and green chili for 1 minute.",
-            "Step 2 : Add chopped spinach to the pan and cook for another minute.",
-            "Step 3 : Allow the mixture to cool down, then blend it into a puree with 1/4 cup water.",
-            "Step 4 : Transfer the puree to a pot, add milk, and bring it to a boil.",
-            "Step 5 : Season with salt and black pepper powder, and mix well.",
-            "Step 6 : Serve hot."
-        ]
+            "For Dal:",
+            "Step 1 : Clean and wash the dals. Combine the dals with 4 cups of water and salt in a pressure cooker. Pressure cook for 3 whistles.",
+            "Step 2 : Allow the steam to escape before opening the lid. Do not drain the water and keep aside.",
+            "Step 3 : Heat ghee in a deep non-stick kadahi. Add cloves, bay leaves, cumin, green chillies, and heeng. Sauté for a few seconds.",
+            "Step 4 : When the seeds crackle, add tomatoes, coriander powder, turmeric powder, chilli powder, and garam masala. Mix well and cook for 2 minutes on a medium flame, stirring occasionally.",
+            "Step 5 : Add the cooked dal (along with water) and little salt. Mix well and cook on a medium flame for 2-3 minutes, stirring occasionally.",
+            "Step 6 : Add coriander and mix well. Keep aside.",
+            "<br>For Baati:",
+            "Step 1: Combine all the ingredients in a deep bowl and knead into a semi-stiff dough without using any water.",
+            "Step 2: Divide the dough into 8 equal portions and shape each portion into an evenly sized round. Flatten the rounds and make a small indentation in the center of each baati using your thumb. Keep aside.",
+            "Step 3: Heat a tandoori cooker and place all the baatis on the wire rack. Bake on low-medium flame until brown.",
+            "Step 4: Heat ghee in a wok and put all the baatis in it.",
+            "How to Serve:",
+            "Warm the dal again until piping hot. Arrange two baatis on a serving plate, break them into pieces, and pour 1 tbsp melted ghee evenly over the baatis. Serve with hot dal."
+        ],
+        preparationTime: "25 Min",
+        cookTime: "25 Min",
+        rating: "4.8 / 5"
     },
 
     {
         id: 6,
         name: "Shahi Gatta Pulao",
-        category: "",
+        category: "MainCourse",
         description: "Shahi Gatta Pulao is a royal and flavorful rice dish made with aromatic basmati rice, fried gram flour dumplings (gatta), and a blend of rich spices and nuts.",
         image: "assets/shahi-gatta-pulao.jpg",
         detailedIngredients: [
@@ -194,82 +263,79 @@ const recipes = [
             "Step 6 : Pour in water and lemon juice. Once the mixture starts boiling, add soaked rice and cook on high flame until the water evaporates.",
             "Step 7 : Lower the heat, add chopped coriander leaves, and simmer for 5 minutes.",
             "Step 8 : Shahi Gatta Pulao is ready to be served hot, garnished with additional coriander leaves, and accompanied by raita."
-        ]
+        ],
+        preparationTime: "15 Min",
+        cookTime: "20 Min",
+        rating: "4.4 / 5"
     },
 
     {
         id: 7,
-        name: "Rose Cake",
-        category: "Cake",
-        image: "assets/rose-cake.jpg",
-        description: "A delightful rose-flavored cake layered with whipped cream and chocolate chips, finished with Hershey's syrup and rose petals.",
+        name: "Tomato Soup",
+        category: "Soup",
+        description: "A comforting and flavorful tomato soup, perfect for any meal. Served hot with crispy bread croutons.",
+        image: "assets/tomato-soup.jpg",
         detailedIngredients: [
-            "1 cup all-purpose flour",
-            "1/2 cup powdered sugar",
-            "1/2 cup fresh cream",
-            "3/4 cup milk",
-            "1/2 cup chocolate powder",
-            "1/2 cup milk powder",
-            "1/4 tsp baking soda",
-            "1 tsp baking powder",
-            "5 drops chocolate essence",
-            "5 rose flowers",
-            "1 cup whipped cream",
-            "1/2 cup choco chips",
-            "1/2 cup Hershey's syrup"
+            "1 kg red tomatoes",
+            "1 tsp salt",
+            "1 tsp black pepper powder",
+            "1/2 tsp sugar",
+            "1 tbsp bread croutons (for serving)"
         ],
         instructions: [
-            "Step 1 : Sieve all-purpose flour, baking powder, baking soda, and chocolate powder.",
-            "Step 2 : In a bowl, mix milk and fresh cream.",
-            "Step 3 : Add powdered sugar and milk powder. Mix well, then add the flour mixture.",
-            "Step 4 : Add chocolate essence and mix the batter in one direction.",
-            "Step 5 : Grease a cake pan and pour in the batter. Preheat the oven to 180°C for 10 minutes.",
-            "Step 6 : Bake the cake in the preheated oven at 180°C for 30 minutes.",
-            "Step 7 : Once baked, cool the cake for 40 minutes and then cut it into three layers.",
-            "Step 8 : Spread sugar syrup on one layer, followed by whipped cream and Hershey's syrup.",
-            "Step 9 : Sprinkle chocolate chips over the layer.",
-            "Step 10 : Repeat the process for the other layers. Place the top layer on the chocolate chips.",
-            "Step 11 : Cover the entire cake with whipped cream icing.",
-            "Step 12 : Place rose petals in a bowl of cool water for 10 minutes, then place them on a towel.",
-            "Step 13 : Decorate the cake with the soaked rose petals.",
-            "Step 14 : Freeze the cake for 30 minutes before serving. Enjoy your Valentine's Day with the Rose Cake!"
-        ]
+            "Step 1 : In a pressure cooker, add 1/4 cup water and bring it to a boil.",
+            "Step 2 : Add halved tomatoes to the boiling water, cover the cooker, and cook for 3 whistles.",
+            "Step 3 : Allow the pressure cooker to cool down, then blend the tomatoes into a smooth puree using a blender.",
+            "Step 4 : Strain the puree to remove any skin and seeds.",
+            "Step 5 : Transfer the strained puree to a pot and bring it to a boil.",
+            "Step 6 : Add salt, sugar, and black pepper powder to the boiling soup.",
+            "Step 7 : Simmer for 5-7 minutes until the soup thickens.",
+            "Step 8 : Serve hot, garnished with bread croutons."
+        ],
+        preparationTime: "20 Min",
+        cookTime: "10 Min",
+        rating: "4.2 / 5"
     },
-
+    
     {
         id: 8,
-        name: "Margherita Pizza",
-        category: "Pizza",
-        description: "A classic Margherita pizza with a homemade whole wheat crust, topped with tomato sauce, fresh mozzarella cheese, and basil leaves.",
-        image: "assets/margherita-pizza.jpg",
+        name: "Masala Dosa",
+        category: "South-Indian",
+        description: "Crispy, golden dosas filled with a flavorful potato masala, cooked with rice, onions, beans, and a blend of spices, for a delicious and satisfying breakfast experience.",
+        image: "assets/masala-dosa.jpeg",
         detailedIngredients: [
-            "1 tsp instant yeast",
-            "1/2 tsp sugar",
-            "1/2 tsp salt",
-            "3 cups whole wheat flour",
-            "3 tbsp olive oil",
-            "1 tbsp lemon juice",
-            "1 cup lukewarm water",
-            "Pizza sauce",
-            "Fresh mozzarella cheese, sliced",
-            "Fresh basil leaves",
-            "Grated parmesan cheese (optional)"
+            "4 cups rice (regular, not basmati)",
+            "1 cup fine black gram (split urad dal)",
+            "2 tsp fenugreek seeds",
+            "1 tsp sugar",
+            "Salt to taste (approximately 1 tsp)",
+            "1 cup oil",
+            "2 potatoes, boiled and mashed",
+            "1 cup chopped onion",
+            "1/2 cup chopped beans",
+            "1/2 cup oil",
+            "1 tsp mustard seeds",
+            "8 to 10 curry leaves",
+            "2 tsp salt",
+            "1 tbsp sambhar masala",
+            "1 tsp turmeric powder",
+            "1 tbsp coriander powder",
+            "1 tbsp peanuts"
         ],
         instructions: [
-            "Step 1 : In a large mixing bowl, combine instant yeast, sugar, and lukewarm water. Let it sit for 10-15 minutes until frothy.",
-            "Step 2 : Add whole wheat flour, salt, olive oil, and lemon juice to the yeast mixture. Knead until a soft dough forms.",
-            "Step 3 : Shape the dough into a ball and place it in a greased bowl. Cover with a kitchen towel and let it rise in a warm place for 45 minutes to 1.5 hours, until doubled in size.",
-            "Step 4 : Preheat the oven to its highest temperature. Place a baking tray or pizza stone in the oven to preheat.",
-            "Step 5 : Divide the dough into 6 or 7 equal portions. Roll out each portion into a thin circle on a floured surface.",
-            "Step 6 : Transfer the rolled dough onto a greased baking tray or pizza stone.",
-            "Step 7 : Spread tomato sauce evenly over the dough, leaving a border around the edges.",
-            "Step 8 : Place slices of fresh mozzarella cheese on top of the sauce.",
-            "Step 9 : Tear fresh basil leaves and scatter them over the cheese.",
-            "Step 10 : Optionally, sprinkle grated parmesan cheese over the pizza.",
-            "Step 11 : Bake the pizza in the preheated oven for 10-15 minutes, until the crust is golden brown and the cheese is bubbly.",
-            "Step 12 : Remove from the oven, slice, and serve hot. Enjoy your homemade Margherita pizza!"
-        ]
+            "Step 1: For Dosa Batter - Soak rice, dal, and fenugreek seeds together for 6 hours. After soaking, strain the water and grind them into a fine paste. Beat well and keep it aside in a warm place for overnight or 6 to 8 hours for fermentation.",
+            "Step 2: After fermentation, mix the batter well with hands, then add sugar and salt. Mix well and keep aside.",
+            "Step 3: For Masala - Heat oil in a pan. Add mustard seeds and let them crackle. Then, fry peanuts and add curry leaves and chopped onions along with spices. Saute well.",
+            "Step 4: Add chopped beans and mashed potatoes. Mix well and cook for 5 minutes on low flame with a lid covering the pan.",
+            "Step 5: To Make Dosa - Heat a tawa and drizzle some oil. Wipe it with a wet towel. Pour a ladle full of batter onto the tawa and spread it into a thin layer. Keep the flame on medium.",
+            "Step 6: Drizzle oil from the corners and some drops over the dosa. Place the prepared masala on one side of the dosa and fold it over as shown in the picture.",
+            "Step 7: Serve hot with coconut chutney, sambar, or any chutney of your choice. Enjoy!"
+        ],
+        preparationTime: "10 Hr 0 Min",
+        cookTime: "30 Min",
+        rating: "4.6 / 5"
     },
+    
 
     {
         id: 9,
@@ -306,7 +372,10 @@ const recipes = [
             "Step 9 : Cook the paratha for about a minute, then flip it over. Brush some oil or ghee on the surface and cook until both sides are golden brown and cooked through.",
             "Step 10 : Repeat the process with the remaining dough and paneer stuffing to make more parathas.",
             "Step 11 : Serve hot paneer parathas with your favorite accompaniments such as sauce, raita, or pickle."
-        ]
+        ],
+        preparationTime: "5 Min",
+        cookTime: "25 Min",
+        rating: "4.2 / 5"
     },
 
 
@@ -347,7 +416,10 @@ const recipes = [
             "Step 7 : Pour orange gel over the cake to make your own design, and decorate using whipped cream.",
             "Step 8 : Place chocolate chips over the cake.",
             "Step 9 : Allow the cake to cool completely before serving."
-        ]
+        ],
+        preparationTime: "15 Min",
+        cookTime: "15 Min",
+        rating: "4.4 / 5"
     },
 
     {
@@ -382,7 +454,10 @@ const recipes = [
             "Step 7 : Next, add a layer of grated mozzarella cheese evenly and then top with veggies followed by cheese again.",
             "Step 8 : Bake the pan pizza in a preheated oven at 180°C for 12-15 minutes until the cheese is bubbly and the edges are golden brown.",
             "Step 9 : Serve hot immediately with dried mixed Italian herbs and chili flakes on top."
-        ]
+        ],
+        preparationTime: "15 Min",
+        cookTime: "20 Min",
+        rating: "4.1 / 5"
     },
 
 
@@ -407,8 +482,295 @@ const recipes = [
             "Step 4 : Using an immersion blender or regular blender, blend the soup until smooth.",
             "Step 5 : Season with salt and black pepper powder, adjusting to taste.",
             "Step 6 : Serve hot, garnished with a sprinkle of black pepper or a dollop of cream if desired." 
-        ]
-    }
+        ],
+        preparationTime: "5 Min",
+        cookTime: "15 Min",
+        rating: "3.5 / 5"
+    }, 
 
+
+
+    {
+        id: 14,
+        name: "Rose Cake",
+        category: "Cake",
+        image: "assets/rose-cake.jpg",
+        description: "A delightful rose-flavored cake layered with whipped cream and chocolate chips, finished with Hershey's syrup and rose petals.",
+        detailedIngredients: [
+            "1 cup all-purpose flour",
+            "1/2 cup powdered sugar",
+            "1/2 cup fresh cream",
+            "3/4 cup milk",
+            "1/2 cup chocolate powder",
+            "1/2 cup milk powder",
+            "1/4 tsp baking soda",
+            "1 tsp baking powder",
+            "5 drops chocolate essence",
+            "5 rose flowers",
+            "1 cup whipped cream",
+            "1/2 cup choco chips",
+            "1/2 cup Hershey's syrup"
+        ],
+        instructions: [
+            "Step 1 : Sieve all-purpose flour, baking powder, baking soda, and chocolate powder.",
+            "Step 2 : In a bowl, mix milk and fresh cream.",
+            "Step 3 : Add powdered sugar and milk powder. Mix well, then add the flour mixture.",
+            "Step 4 : Add chocolate essence and mix the batter in one direction.",
+            "Step 5 : Grease a cake pan and pour in the batter. Preheat the oven to 180°C for 10 minutes.",
+            "Step 6 : Bake the cake in the preheated oven at 180°C for 30 minutes.",
+            "Step 7 : Once baked, cool the cake for 40 minutes and then cut it into three layers.",
+            "Step 8 : Spread sugar syrup on one layer, followed by whipped cream and Hershey's syrup.",
+            "Step 9 : Sprinkle chocolate chips over the layer.",
+            "Step 10 : Repeat the process for the other layers. Place the top layer on the chocolate chips.",
+            "Step 11 : Cover the entire cake with whipped cream icing.",
+            "Step 12 : Place rose petals in a bowl of cool water for 10 minutes, then place them on a towel.",
+            "Step 13 : Decorate the cake with the soaked rose petals.",
+            "Step 14 : Freeze the cake for 30 minutes before serving. Enjoy your Valentine's Day with the Rose Cake!"
+        ],
+        preparationTime: "15 Min",
+        cookTime: "1 Hr 20 Min",
+        rating: "4 / 5"
+    },
+
+    {
+        id: 15,
+        name: "Khaman Dhokla",
+        category: "Breakfast",
+        description: "A soft and fluffy savory cake made with gram flour and spices, steamed to perfection and tempered with aromatic spices.",
+        image: "assets/khaman-dhokla.jpeg",
+        detailedIngredients: [
+            "1.5 cups gram flour (besan)",
+            "2-3 pinches turmeric powder",
+            "A generous pinch of asafoetida (optional)",
+            "1.5 tablespoons lemon or lime juice",
+            "1.5 teaspoons ginger paste",
+            "1.5 teaspoons green chili paste",
+            "1 tablespoon sugar (or to taste)",
+            "1 teaspoon salt (or to taste)",
+            "1 tablespoon rava (semolina) (optional)",
+            "2 teaspoons Eno (fruit salt) (or 1.5 teaspoons if desired)",
+            "2 tablespoons oil (for batter)",
+            "2 tablespoons oil (for tempering)",
+            "1 teaspoon mustard seeds",
+            "10-12 curry leaves",
+            "1 teaspoon cumin seeds (optional)",
+            "1 teaspoon chopped green chili (optional)",
+            "2 teaspoons white sesame seeds",
+            "2 teaspoons sugar",
+            "⅓ cup water",
+            "2-3 tablespoons chopped coriander leaves (for garnish)",
+            "2-3 tablespoons grated coconut (optional, for garnish)"
+        ],
+        instructions: [
+            "Step 1: Grease a steamer pan with 2 to 3 teaspoons oil.",
+            "Step 2: In a mixing bowl, combine gram flour, turmeric powder, asafoetida, lemon or lime juice, ginger paste, green chili paste, sugar, salt, and oil.",
+            "Step 3: Add water and mix to make a thick yet smooth flowing batter. Stir in rava (semolina) if using.",
+            "Step 4: Pour the batter into the greased pan.",
+            "Step 5: Steam for 15 to 20 minutes until a toothpick inserted comes out clean.",
+            "Step 6: Let the khaman cool, then invert the pan onto a plate and slice into squares.",
+            "Step 7: For tempering, heat oil in a pan and add mustard seeds. When they crackle, add curry leaves, cumin seeds, green chili, white sesame seeds, and sugar.",
+            "Step 8: Add water and allow the mixture to boil. Remove from heat and pour evenly over the khaman.",
+            "Step 9: Garnish with chopped coriander leaves and grated coconut if desired."
+        ],
+        preparationTime: "20 Min",
+        cookTime: "20 Min",
+        rating: "4.7 / 5"
+    },
+
+    {
+        id: 16,
+        name: "Margherita Pizza",
+        category: "Pizza",
+        description: "A classic Margherita pizza with a homemade whole wheat crust, topped with tomato sauce, fresh mozzarella cheese, and basil leaves.",
+        image: "assets/margherita-pizza.jpg",
+        detailedIngredients: [
+            "1 tsp instant yeast",
+            "1/2 tsp sugar",
+            "1/2 tsp salt",
+            "3 cups whole wheat flour",
+            "3 tbsp olive oil",
+            "1 tbsp lemon juice",
+            "1 cup lukewarm water",
+            "Pizza sauce",
+            "Fresh mozzarella cheese, sliced",
+            "Fresh basil leaves",
+            "Grated parmesan cheese (optional)"
+        ],
+        instructions: [
+            "Step 1 : In a large mixing bowl, combine instant yeast, sugar, and lukewarm water. Let it sit for 10-15 minutes until frothy.",
+            "Step 2 : Add whole wheat flour, salt, olive oil, and lemon juice to the yeast mixture. Knead until a soft dough forms.",
+            "Step 3 : Shape the dough into a ball and place it in a greased bowl. Cover with a kitchen towel and let it rise in a warm place for 45 minutes to 1.5 hours, until doubled in size.",
+            "Step 4 : Preheat the oven to its highest temperature. Place a baking tray or pizza stone in the oven to preheat.",
+            "Step 5 : Divide the dough into 6 or 7 equal portions. Roll out each portion into a thin circle on a floured surface.",
+            "Step 6 : Transfer the rolled dough onto a greased baking tray or pizza stone.",
+            "Step 7 : Spread tomato sauce evenly over the dough, leaving a border around the edges.",
+            "Step 8 : Place slices of fresh mozzarella cheese on top of the sauce.",
+            "Step 9 : Tear fresh basil leaves and scatter them over the cheese.",
+            "Step 10 : Optionally, sprinkle grated parmesan cheese over the pizza.",
+            "Step 11 : Bake the pizza in the preheated oven for 10-15 minutes, until the crust is golden brown and the cheese is bubbly.",
+            "Step 12 : Remove from the oven, slice, and serve hot. Enjoy your homemade Margherita pizza!"
+        ],
+        preparationTime: "15 Min",
+        cookTime: "30 Min",
+        rating: "3.9 / 5"
+    },
+
+    {
+        id: 17,
+        name: "Chocolate Dessert",
+        category: "Dessert",
+        description: "Indulge in the heavenly delight of this chocolate dessert, featuring  Oreo biscuits, chocolate syrup, whipped cream, and chocolate pieces. Served chilled for a delightful treat.",
+        image: "assets/chocolate-dessert.jpg",
+        detailedIngredients: [
+            "1 cup bread crumbs",
+            "7 Parle-G biscuits",
+            "2 tablespoons chocolate syrup",
+            "2 tablespoons whipped cream",
+            "5 Oreo biscuits",
+            "1 Dairy Milk chocolate",
+            "1 teaspoon sugar",
+            "1/2 cup milk",
+            "2 Chocolate sticks"
+        ],
+        instructions: [
+            "Step 1: Crush the Parle-G biscuits into a fine powder.",
+            "Step 2: Break the Oreo biscuits into pieces.",
+            "Step 3: In a bowl, combine the bread crumbs, Parle-G biscuit powder, and sugar. Mix well.",
+            "Step 4: Add milk to the mixture and stir to form a moist mixture.",
+            "Step 5: Take a serving bowl and layer the bottom with the biscuit and bread crumbs mixture.",
+            "Step 6: Drizzle some chocolate syrup over the layer.",
+            "Step 7: Add the crushed Oreo biscuits on top of the chocolate syrup layer.",
+            "Step 8: Repeat the layers with the remaining biscuit and bread crumbs mixture, chocolate syrup, and whipped cream.",
+            "Step 9: Garnish with crushed Dairy Milk chocolate and chocolate sticks.",
+            "Step 10: Serve chilled."
+        ],
+        preparationTime: "30 Min",
+        cookTime: "10 Min",
+        rating: "4.7 / 5"
+    },
+    
+    {
+        i: 18,
+        name: "Makki Ke Dhokle",
+        category: "MainCourse",
+        description: " A delicious Rajasthani winter delicacy made with Makki ka aata(Maze flour) and is enjoyed as a main course with kadhi or dal.",
+        image: "assets/rajasthani-makki-dhokle.jpg",
+        detailedIngredients: [
+            "2 cups Corn meal",
+            "1 tablespoon Peanut oil",
+            "1 teaspoon Sesame seeds (Til seeds)",
+            "1/2 teaspoon Papad khar",
+            "Salt, to taste",
+            "1 teaspoon Red Chilli powder",
+            "2 Cloves (Laung), crushed",
+            "2 Whole Black Peppercorns, crushed",
+            "2 tablespoons Coriander (Dhania) Leaves, chopped",
+            "2 tablespoons Methi Leaves (Fenugreek Leaves), chopped",
+            "2 tablespoons Green peas (Matar) (optional)",
+            "2 tablespoons Yellow Moong Dal (Split)",
+            "1/2 cup Lukewarm Water"
+        ],
+        instructions: [
+            "Step 1: Soak papad khar in warm water and set aside.",
+            "Step 2: In a bowl, mix cornmeal with sesame seeds, crushed cloves, crushed peppercorns, chopped coriander leaves, chopped fenugreek leaves, green peas (if using), and salt.",
+            "Step 3: Add peanut oil and soaked papad khar water to the dry mix. Knead to form a soft dough. Grease hands with oil while kneading to prevent sticking.",
+            "Step 4: Pinch a ball of dough and flatten it to form a disk. Make a hole in the center with your index finger to shape the dhoklas into rings.",
+            "Step 5: Heat water in a steamer or dhokla/idli maker. Grease the steaming plate.",
+            "Step 6: Place the dhokla rings on the plate and steam for 20-25 minutes or until a toothpick inserted comes out clean.",
+            "Step 7: Serve Rajasthani Makki ke Dhokle with hung curd and Panchmel dal."
+        ],
+        preparationTime: "10 Min",
+        cookTime: "25 Min",
+        rating: "4.8 / 5"
+    },
+
+    {
+        id: 25,
+        name: "Idli",
+        category: "South-Indian",
+        description: "Enjoy soft and fluffy idlis, a South Indian delicacy, made from a fermented batter of skinned black gram (urad dal), rice, and thick poha. .",
+        image: "assets/idli.jpg",
+        detailedIngredients: [
+            "1/2 cup skinned black gram (urad dal)",
+            "1 cup rice",
+            "2 tbsp thick poha",
+            "1/2 tsp sea salt (or as needed)",
+            "1 cup cold water (approximately)"
+        ],
+        instructions: [
+            "Step 1: Wash the skinned black gram (urad dal) and rice separately until the water runs clear. Soak them separately in plenty of water for at least 5 to 6 hours.",
+            "Step 2: If using, soak the thick poha for about 2 hours.",
+            "Step 3: After 4-5 hours, drain the water from the rice and dal.",
+            "Step 4: In a grinder, add soaked urad dal, poha, salt, and required cold water. Grind until smooth, bubbly, and frothy. If using fenugreek seeds, add them to the grinder as well.",
+            "Step 5: Transfer the urad dal batter to a larger bowl.",
+            "Step 6: Grind the soaked rice with a little water until slightly coarse. Add this to the urad dal batter and mix well.",
+            "Step 7: Set the batter aside in a warm place for at least 6-12 hours until it ferments and rises well. People living in high altitudes and cold climates can keep the batter in a preheated oven at 100°C.",
+            "Step 8: On high flame, bring enough water to boil in an idly steamer or pressure cooker. Lightly grease the idly plates.",
+            "Step 9: Gently mix the batter a few times and fill the molds with batter.",
+            "Step 10: When the water begins to bubble and steam up, place the stand in the steamer. Steam on high for 5 minutes, then reduce the heat and steam on low for 10 minutes.",
+            "Step 11: Insert a clean knife into the idlis to check if they're done. If the knife comes out clean, the idlis are done. If not, steam for another couple of minutes.",
+            "Step 12: Remove the steamer from heat and let it stand for 5 minutes. Open and remove the idlis from the molds using a knife.",
+            "Step 13: Serve hot or warm with sambar, coconut chutney, idli podi, or kaara chutney. Enjoy!"
+        ],
+        preparationTime: "8 Hr 0 Min",
+        cookTime: "20 Min",
+        rating: "4.1 / 5"
+    },
+    
+    {
+        id: 20,
+        name: "Spinach Soup",
+        category: "Soup",
+        description: "A quick and nutritious spinach soup, packed with flavors of garlic and green chili, perfect for a light meal.",
+        image: "assets/spinach-soup.jpg",
+        detailedIngredients: [
+            "1 cup chopped spinach",
+            "2 tsp chopped onion",
+            "1 tsp chopped garlic",
+            "1/2 tsp salt",
+            "1/2 tsp black pepper powder",
+            "1 cup milk",
+            "1 tsp chopped green chili"
+        ],
+        instructions: [
+            "Step 1 : In a pan, heat 1 teaspoon oil and sauté garlic, chopped onions, and green chili for 1 minute.",
+            "Step 2 : Add chopped spinach to the pan and cook for another minute.",
+            "Step 3 : Allow the mixture to cool down, then blend it into a puree with 1/4 cup water.",
+            "Step 4 : Transfer the puree to a pot, add milk, and bring it to a boil.",
+            "Step 5 : Season with salt and black pepper powder, and mix well.",
+            "Step 6 : Serve hot."
+        ],
+        preparationTime: "5 Min",
+        cookTime: "10 Min",
+        rating: "4.6 / 5"
+    },
+
+    {
+        id: 21,
+        name: "Tartufo",
+        category: "Dessert",
+        description: "Italian dlight with flavours of strawberry, mango, and chocolate ice creams,garnished with chopped pistachios, almonds, and cherries.",
+        image: "assets/tartufo.jpg",
+        detailedIngredients: [
+            "3 small packs each of strawberry, mango, and chocolate-flavored ice creams",
+            "1-2 tbsp. powdered Oreo biscuit",
+            "1 tbsp. chopped pistachios",
+            "1 tbsp. chopped almonds",
+            "1 tbsp. chopped cherries"
+        ],
+        instructions: [
+            "Step 1: Fill a silicone mold or any disposable bowl/cup with mango-flavored ice cream.",
+            "Step 2: Make a hole in the center with a spoon and fill it with chocolate ice cream.",
+            "Step 3: Make another hole in the center of the chocolate ice cream and fill it with strawberry ice cream.",
+            "Step 4: Cover the mold with mango ice cream and freeze until set.",
+            "Step 5: Before serving, demold the tartufo and sprinkle powdered Oreo biscuit over it.",
+            "Step 6: Garnish with chopped pistachios, almonds, and cherries.",
+            "Step 7: Serve chilled."
+        ],
+        preparationTime: "4 Hr 0 Min",
+        cookTime: "5 Min",
+        rating: "4.8 / 5"
+    }
+    
 ];
 
