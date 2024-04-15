@@ -76,7 +76,7 @@ a {
     z-index: 100;
     background-color: rgb(25, 37, 55);
     box-shadow: var(--nav-shadow);
-    font-family: 'Roboto';
+    font-family: 'Nunito';
 }
 .nav-center {
     width: 90vw;
@@ -192,8 +192,7 @@ a {
     margin-top: 4vh;
     margin-bottom: 0;
     padding-left: 6px;
-    font-size: 1.7rem;
-    font-size: 4vh;
+    font-size: 3.8vh;
     color: rgb(231, 231, 231);
     /* font-family: "El Messiri"; */
     font-family: "Kalam";
@@ -433,8 +432,8 @@ a {
         border-radius: 3vh;
     }
     .categories a p{
-        font-size: 4vh;
-        font-weight: bold;
+        font-size: 3.6vh;
+        /* font-weight: bold;  */
         margin: 0;
         color: white;
         position: relative;
