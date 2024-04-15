@@ -12,7 +12,7 @@ Search for recipes by ingredients, cuisine, or dietary preferences.
 HTML  
 CSS  
 JavaScript  
-Angular  
+AngularJS  
 
 ## Getting Started  
 To get started with RecipeBook, simply clone this repository to your local machine and open the index.html file in your preferred web browser.  
