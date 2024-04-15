@@ -174,7 +174,6 @@ const recipes = [
         image: "assets/baati-with-dal.jpg",
         detailedIngredients: [
             "1 cup coarse whole wheat flour",
-            "1/2 cup Semolina",
             "2 tbsp besan",
             "1/2 cup milk",
             "4 tbsp melted ghee",
