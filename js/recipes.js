@@ -748,7 +748,7 @@ const recipes = [
         id: 21,
         name: "Tartufo",
         category: "Dessert",
-        description: "Italian dlight with flavours of strawberry, mango, and chocolate ice creams,garnished with chopped pistachios, almonds, and cherries.",
+        description: "Italian delight with flavours of strawberry, mango, and chocolate ice creams,garnished with chopped pistachios, almonds, and cherries.",
         image: "assets/tartufo.jpg",
         detailedIngredients: [
             "3 small packs each of strawberry, mango, and chocolate-flavored ice creams",
