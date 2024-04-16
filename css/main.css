@@ -276,7 +276,6 @@ a {
 .home-recipe-description-desktop{
     padding: 2vh;
     padding-right: 8vh;
-    text-align: justify;
     font-family: "Merriweather", serif;
     font-family: "kalam";
     font-size: 2vh;
@@ -650,7 +649,6 @@ a {
     }
     .home-recipe-description-mobile{
         font-size: 1.5vh;
-        text-align: justify;
         font-family: "Merriweather", serif;
     }
     .home-recipe-description-mobile p{
