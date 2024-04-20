@@ -26,7 +26,7 @@ To run the Recipe Book Website locally on your machine, follow these steps:
 2) Navigate to the project directory: cd Recipe-Book.  
 3) Install the necessary dependencies by running: 'npm install'.  
 4) Once the dependencies are installed, start the development server with ng serve.  
-5) Open your web browser and visit http://localhost:4200 to view the website.
+5) Open your web browser and visit  'localhost'  to view the website.
    
 ## Contributing
 Contributions are welcome! If you have any ideas for new features, improvements, or bug fixes, feel free to submit a pull request. Please adhere to the code of conduct and follow the contribution guidelines.
