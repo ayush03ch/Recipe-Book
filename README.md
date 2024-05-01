@@ -20,7 +20,7 @@ Angular
 ## Getting Started
 To run the website on github server click the link https://ayush03ch.github.io/Recipe-Book/  
 *Sample Images from the website*  
-*Layout responsible for all screen sizes*
+*Layout responsible for all screen sizes*  
 ![Website Sample Images (1)](https://github.com/ayush03ch/Recipe-Book/assets/114729778/3f15d7de-e83d-434b-a113-2f81915637e3)
 ![Website Sample Images (2)](https://github.com/ayush03ch/Recipe-Book/assets/114729778/33e74c75-8fca-42a2-a648-dca951f74c96)
 ![Website Sample Images (3)](https://github.com/ayush03ch/Recipe-Book/assets/114729778/dc64ce1d-1643-412f-bcc4-23132acc3883)  
@@ -28,7 +28,13 @@ To run the website on github server click the link https://ayush03ch.github.io/R
 ![Website Sample Images (1)](https://github.com/ayush03ch/Recipe-Book/assets/114729778/855524ac-06c8-4b22-9589-dece1dd140a1)
 ![Website Sample Images (2)](https://github.com/ayush03ch/Recipe-Book/assets/114729778/92ef6d0d-73c1-4833-bd43-09893ecdc5df)
 ![Website Sample Images (3)](https://github.com/ayush03ch/Recipe-Book/assets/114729778/0100f336-6c94-4f20-88c6-4e651be2e4fe)  
-![sample images](/assets/Website Sample Images (1))
+![sample images](/assets/Website%20Sample%20Images%20(1))
+<img src="assets/WebsiteSampleImages1.jpg">
+<img src="assets/WebsiteSampleImages2.jpg">
+<img src="assets/WebsiteSampleImages3.jpg">
+<img src="assets/WebsiteSample1.jpg" width=300px>
+<img src="assets/WebsiteSample2.jpg" width=300px>
+<img src="assets/WebsiteSample3.jpg" width=300px>
   
 To run the Recipe Book Website locally on your machine, follow these steps:  
 
