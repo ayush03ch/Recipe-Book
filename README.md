@@ -30,8 +30,9 @@ To run the Recipe Book Website locally on your machine, follow these steps:
 1) Clone this repository to your local machine using git clone https://github.com/ayush03ch/Recipe-Book.git.  
 2) Navigate to the project directory: cd Recipe-Book.  
 3) Install the necessary dependencies by running: 'npm install'.  
-4) Once the dependencies are installed, start the development server with ng serve.  
-5) Open your web browser and visit  'localhost'  to view the website.
+4) Once the dependencies are installed, start the development server with ng serve.
+   or run the command: node runner.js
+6) Open your web browser and visit  'localhost'  to view the website.
    
 ## Contributing
 Contributions are welcome! If you have any ideas for new features, improvements, or bug fixes, feel free to submit a pull request. Please adhere to the code of conduct and follow the contribution guidelines.
