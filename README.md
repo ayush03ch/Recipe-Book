@@ -19,14 +19,7 @@ Angular
 
 ## Getting Started
 To run the website on github server click the link https://ayush03ch.github.io/Recipe-Book/  
-*Sample Images from the website*  
-*Layout responsible for all screen sizes*  
-<img src="assets/WebsiteSampleImages1.png" >
-<img src="assets/WebsiteSampleImages2.png" >
-<img src="assets/WebsiteSampleImages3.png" >
-<img src="assets/WebsiteSample1.jpg" width=250px height=500px>
-<img src="assets/WebsiteSample3.jpg" width=250px height=500px>
-<img src="assets/WebsiteSample2.jpg" width=250px height=300px>
+
   
 To run the Recipe Book Website locally on your machine, follow these steps:  
 
@@ -38,4 +31,13 @@ To run the Recipe Book Website locally on your machine, follow these steps:
 6) Open your web browser and visit  'localhost'  to view the website.
    
 ## Contributing
-Contributions are welcome! If you have any ideas for new features, improvements, or bug fixes, feel free to submit a pull request. Please adhere to the code of conduct and follow the contribution guidelines.
+Contributions are welcome! If you have any ideas for new features, improvements, or bug fixes, feel free to submit a pull request. Please adhere to the code of conduct and follow the contribution guidelines.  
+
+## *Sample Images from the website*  
+*Layout responsible for all screen sizes*  
+<img src="assets/WebsiteSampleImages1.png" >
+<img src="assets/WebsiteSampleImages2.png" >
+<img src="assets/WebsiteSampleImages3.png" >
+<img src="assets/WebsiteSample1.jpg" width=250px >
+<img src="assets/WebsiteSample3.jpg" width=250px >
+<img src="assets/WebsiteSample2.jpg" width=250px >
