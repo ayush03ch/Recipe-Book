@@ -19,9 +19,7 @@ Angular
 
 ## Getting Started
 To run the website on github server click the link https://ayush03ch.github.io/Recipe-Book/  
-![image](https://github.com/ayush03ch/Recipe-Book/assets/114729778/199a9e1d-da30-4087-8f6c-22725cf661a7)
-![image](https://github.com/ayush03ch/Recipe-Book/assets/114729778/d2c86fa2-2750-4e32-a1f1-ce2822265d03)
-![image](https://github.com/ayush03ch/Recipe-Book/assets/114729778/c2c7a53b-4764-4030-8bae-219c6a5a00bb)  
+https://github.com/ayush03ch/Recipe-Book/blob/master/assets/Website%20Sample%20Images%20(1).jpg
 
 
   
@@ -29,9 +27,9 @@ To run the Recipe Book Website locally on your machine, follow these steps:
 
 1) Clone this repository to your local machine using git clone https://github.com/ayush03ch/Recipe-Book.git.  
 2) Navigate to the project directory: cd Recipe-Book.  
-3) Install the necessary dependencies by running: 'npm install'.  
-4) Once the dependencies are installed, start the development server with ng serve.
-   or run the command: node runner.js
+3) Install the necessary dependencies by running: ```npm install```.  
+4) Once the dependencies are installed, start the development server with ng serve.  
+   or run the command: ```node runner.js```
 6) Open your web browser and visit  'localhost'  to view the website.
    
 ## Contributing
