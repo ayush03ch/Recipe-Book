@@ -22,10 +22,10 @@ To run the website on github server click the link https://ayush03ch.github.io/R
 *Sample Images from the website*  
 *Layout responsible for all screen sizes*  
 <img src="assets/WebsiteSampleImages1.png" width=500px>
-<img src="assets/WebsiteSample1.jpg" width=250px>
 <img src="assets/WebsiteSampleImages2.png" width=300px>
-<img src="assets/WebsiteSample3.jpg" width=250px>
 <img src="assets/WebsiteSampleImages3.png" width=300px>
+<img src="assets/WebsiteSample1.jpg" width=250px>
+<img src="assets/WebsiteSample3.jpg" width=250px>
 <img src="assets/WebsiteSample2.jpg" width=250px>
   
 To run the Recipe Book Website locally on your machine, follow these steps:  
