@@ -28,7 +28,7 @@ To run the website on github server click the link https://ayush03ch.github.io/R
 ![Website Sample Images (1)](https://github.com/ayush03ch/Recipe-Book/assets/114729778/855524ac-06c8-4b22-9589-dece1dd140a1)
 ![Website Sample Images (2)](https://github.com/ayush03ch/Recipe-Book/assets/114729778/92ef6d0d-73c1-4833-bd43-09893ecdc5df)
 ![Website Sample Images (3)](https://github.com/ayush03ch/Recipe-Book/assets/114729778/0100f336-6c94-4f20-88c6-4e651be2e4fe)  
-
+![sample images](/assets/Website Sample Images (1))
   
 To run the Recipe Book Website locally on your machine, follow these steps:  
 
