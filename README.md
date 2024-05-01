@@ -18,7 +18,10 @@ JavaScript
 Angular  
 
 ## Getting Started
-To run the website on github server click the link https://ayush03ch.github.io/Recipe-Book/  
+To run the website on github server click the link https://ayush03ch.github.io/Recipe-Book/
+![image](https://github.com/ayush03ch/Recipe-Book/assets/114729778/199a9e1d-da30-4087-8f6c-22725cf661a7)
+![image](https://github.com/ayush03ch/Recipe-Book/assets/114729778/d2c86fa2-2750-4e32-a1f1-ce2822265d03)
+
   
 To run the Recipe Book Website locally on your machine, follow these steps:  
 
