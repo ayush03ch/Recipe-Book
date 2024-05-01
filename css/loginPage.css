@@ -18,8 +18,6 @@ form{
     box-shadow: 0 0 3vh rgb(255, 190, 0);
     padding: 5vh;
     border-radius: 2.5vh;
-    /* justify-content: center; */
-    /* justify-content: space-between; */
 }
 .loginLogo{
     border-radius: 2vh;
@@ -103,10 +101,10 @@ button {
         height: 100vh;
     }
     form{
-        margin-top: 5%;
-        height: 45vh;
-        width: 50vh;
-        padding: 6vh;
+        margin-top: 3%;
+        height: 50%;
+        width: 55%;
+        padding: 3vh;
         box-shadow: 0 0 4vh rgb(255, 190, 0);
     }
     label{
